@@ -8,8 +8,8 @@ spec:
   interval: 10m0s
   ref:
     branch: main
-#  secretRef:
-#    name: private-repo-auth
+  secretRef:
+    name: private-repo-auth
   url: ssh://git@github.com/gregoberfield/homelab-private-production
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
