@@ -10,7 +10,7 @@ spec:
     branch: main
   secretRef:
     name: private-repo-auth
-  url: ssh://git@github.com/gregoberfield/homelab-private-production
+  url: ssh://git@github.com/gregoberfield/homelab-private-production.git
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
