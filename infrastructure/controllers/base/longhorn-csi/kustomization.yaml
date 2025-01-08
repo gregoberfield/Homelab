@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - longhorn-repo.yaml
   - longhorn-release.yaml
-  - storage-class.yaml
+    #- storage-class.yaml
