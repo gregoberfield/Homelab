@@ -16,6 +16,8 @@ spec:
         fsGroup: 33
         runAsUser: 33
         runAsGroup: 33 # www-data ID
+      strategy:
+        type: Recreate
       containers:
         - name: linkding
           image: sissbruecker/linkding:1.31.0
