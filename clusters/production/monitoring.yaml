@@ -36,6 +36,6 @@ spec:
   path: ./monitoring/configs/production
   prune: true
   decryption:
-provider: sops
-secretRef:
-  name: sops-age
+    provider: sops
+    secretRef:
+      name: sops-age
