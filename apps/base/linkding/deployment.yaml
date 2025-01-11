@@ -12,12 +12,12 @@ spec:
       labels:
         app: linkding
     spec:
+      strategy:
+        type: Recreate
       securityContext:
         fsGroup: 33
         runAsUser: 33
         runAsGroup: 33 # www-data ID
-      strategy:
-        type: Recreate
       containers:
         - name: linkding
           image: sissbruecker/linkding:1.36.0
