@@ -36,3 +36,5 @@ spec:
         ingressClassName: traefik
         hosts:
           - grafana.gregoberfield.net
+        tls:
+          - secretName: grafana-tls-secret
