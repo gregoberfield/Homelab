@@ -32,10 +32,7 @@ spec:
     ingress:
       enabled: true
       ingressClassName: traefik
-      hosts: grafana.gregoberfield.netcontrollers
-      paths: /
-    route:
-      main:
-        enabled: true
+      hosts: 
+        - grafana.gregoberfield.netcontrollers
     grafana:
       adminPassword: greg4871
