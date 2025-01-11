@@ -35,4 +35,4 @@ spec:
         enabled: true
         ingressClassName: traefik
         hosts:
-          - grafana.gregoberfield.netcontrollers
+          - grafana.gregoberfield.net
