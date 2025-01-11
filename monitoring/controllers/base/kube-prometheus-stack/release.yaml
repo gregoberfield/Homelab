@@ -29,10 +29,10 @@ spec:
         target:
           kind: PrometheusRule
   values:
-    ingress:
-      enabled: true
-      ingressClassName: traefik
-      hosts: 
-        - grafana.gregoberfield.netcontrollers
     grafana:
       adminPassword: greg4871
+      ingress:
+        enabled: true
+        ingressClassName: traefik
+        hosts:
+          - grafana.gregoberfield.netcontrollers
