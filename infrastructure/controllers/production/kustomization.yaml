@@ -5,5 +5,5 @@ resources:
     #  - azurekvcsi
     #  - secrets-store-csi
   - renovate
-    #- cloudnative-pg
-    #- database
+  - cloudnative-pg
+  - database
