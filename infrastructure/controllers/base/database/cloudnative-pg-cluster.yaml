@@ -13,3 +13,10 @@ spec:
         kind: HelmRepository
         name: cloudnative-pg-repo
   interval: 1m0s
+  values:
+    cluster:
+      storage:
+        size: 64Gi
+        storageClass: longhorn-database
+      monitoring:
+        enabled: true
