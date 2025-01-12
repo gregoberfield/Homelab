@@ -6,4 +6,4 @@ resources:
     #  - secrets-store-csi
   - renovate
   - cloudnative-pg
-    #  - database
+  - database
