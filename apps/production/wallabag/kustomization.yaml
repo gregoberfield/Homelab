@@ -4,3 +4,4 @@ resources:
   - ../../base/wallabag/
   - cloudnative-pg-repo.yaml
   - database.yaml
+  - namespace.yaml
