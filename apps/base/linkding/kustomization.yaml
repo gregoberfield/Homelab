@@ -3,7 +3,7 @@ kind: Kustomization
 metadata:
   namespace: linkding
 resources:
-  #- namespace.yaml
+  - namespace.yaml
   - deployment.yaml
   - storage.yaml
   - service.yaml
