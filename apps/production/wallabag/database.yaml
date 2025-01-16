@@ -2,7 +2,7 @@
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
-  name: database
+  name: wallabag-db-production
   namespace: wallabag
 spec:
   chart:
@@ -20,3 +20,10 @@ spec:
         storageClass: longhorn-simple
       monitoring:
         enabled: true
+      bootstrap:
+        recovery:
+          #source: clusterBackup
+          database: wallabag
+          owner: wallabag
+          secret:
+            name: wallabag-db-creds
