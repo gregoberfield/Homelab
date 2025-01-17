@@ -16,7 +16,7 @@ spec:
   values:
     cluster:
       storage:
-        size: 16Gi
+        size: 4Gi
         storageClass: longhorn-simple
       monitoring:
         enabled: true
